@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        // Solicita ao usuário que insira um número inteiro
+var numero = 8;
+
+// Verifica se o valor inserido é um número
+  
+  
+  // Loop para imprimir todos os números ímpares até o número inserido
+ /* for (var i = 1; i >= numero; i++) {
+    if (i % 2 !== 0) {
+      console.log(i);
+    }
+  }*/
+
+  var x = parseInt(prompt("Insira um valor inteiro X:"));
+
+console.log("Sequência de 6 valores ímpares consecutivos a partir de " + x + ":");
+
+var count = 0; // Variável para controlar quantos números ímpares já foram impressos
+
+while (count < 6) {
+  if (x % 2 !== 0) {
+    console.log(x);
+    count++;
+  }
+  x++;
+}
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

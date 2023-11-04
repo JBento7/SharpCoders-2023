@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+
+   let dentro = 0;
+   let fora = 0;
+
+   for(let i=0; i<5 ; i++){
+    let valor = parseInt(prompt("digite um numero"));
+    if(valor >= 0){
+        if(valor >= 10 && valor <=20){
+        dentro++
+         }else{
+        fora++
+    }}
+   }
+   console.log(dentro);
+   console.log(fora);
+   
+ 
+//4
+//14
+//123
+//10
+//-25
+
+   
+/*let dentro = 0;
+let fora = 0;
+
+const processInput = (X) => {
+  if (10 <= X && X <= 20) {
+    dentro++;
+  } else {
+    fora++;
+  }
+
+  rl.question('Informe um valor (X) ou digite "0" para encerrar: ', (input) => {
+    const valor = parseInt(input, 10);
+
+    if (valor !== 0) {
+      processInput(valor);
+    } else {
+      rl.close();
+      console.log(`${dentro} in`);
+      console.log(`${fora} out`);
+    }
+  });
+};*/
+
+
+
+
+</script>
+<body>
+    
+</body>
+</html>

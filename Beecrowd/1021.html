@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script>
+
+    let valor = parseFloat(576.73);
+
+    let notas = parseInt(valor / 100);
+    console.log(`${notas}`);
+    valor = valor % 100;
+    
+    notas = parseInt(valor / 50);
+    console.log(`${notas}`);
+    valor = valor % 50;
+
+    notas = parseInt(valor / 20);
+    console.log(`${notas}`);
+    valor = valor % 20;
+
+    notas = parseInt(valor / 10);
+    console.log(`${notas}`);
+    valor = valor % 10;
+
+    notas = parseInt(valor / 5);
+    console.log(`${notas}`);
+    valor = valor % 5;
+
+    notas = parseInt(valor / 2);
+    console.log(`${notas}`);
+    valor = valor % 2;
+
+    let moedas = parseInt(valor / 1);
+    console.log(`${moedas}`);
+    valor = valor % 1;
+
+    moedas = parseInt(valor / 0.5);
+    console.log(`${moedas}`);
+    valor = valor % 0.5;
+
+    moedas = parseInt(valor / 0.25);
+    console.log(`${moedas}`);
+    valor = valor % 0.25;
+
+    moedas = parseInt(valor / 0.10);
+    console.log(`${moedas}`);
+    valor = valor % 0.10;
+
+    moedas = parseInt(valor / 0.05);
+    console.log(`${moedas}`);
+    valor = valor % 0.05;
+
+    moedas = parseInt(valor / 0.01);
+    console.log(`${moedas}`);
+    valor = valor % 0.01;
+
+
+    for(let indice=0; indice<=100; indice+=2){
+    console.log(indice + "<br>");
+    
+}
+ 
+
+</script>
+
+</head>
+<body>
+    
+</body>
+</html>

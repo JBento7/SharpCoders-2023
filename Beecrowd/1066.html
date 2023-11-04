@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        let par = 0;
+        let impar = 0;
+        let positivo = 0;
+        let negativo = 0;
+
+        for(let i = 0; i < 5; i++ ){
+             
+            let valor = parseInt(prompt("digite um numero"));
+            if(valor > 0){
+                positivo++
+            }
+            if(valor < 0){
+                negativo++
+            }
+            if(valor %2 === 0){
+                par++
+            }else{
+                impar++
+            }
+            
+        }
+
+        document.write(par)
+        document.write(impar)
+        document.write(positivo)
+        document.write(negativo)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

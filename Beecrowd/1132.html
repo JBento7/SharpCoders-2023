@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+    let n1 = parseInt(prompt('num1'));
+    let n2 = parseInt(prompt('num2'));
+
+    let t = n1;
+    let s = 0;
+
+    if (n1 > n2) {
+      t = n1;
+      n1 = n2;
+      n2 = t;
+    }
+
+    while (n1 <= n2) {
+      if (n1 % 13 !== 0) {
+        s += n1;
+      }
+      n1 += 1;
+    }
+
+       console.log(s);
+  
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
